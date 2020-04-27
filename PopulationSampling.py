@@ -13,11 +13,11 @@ class PopulationSampling:
     try to estimate the size of the populations.
     """
 
-    def __init__(self, minPopulation=200, maxPopulation=500, seed=None):
+    def __init__(self, minPopulation=150, maxPopulation=400, seed=37):
         """
         input variables:
-          minPopulation: the minimum population to be created (default 100)
-          maxPopulation: the maximum population to be created (default 500)
+          minPopulation: the minimum population to be created (default 150)
+          maxPopulation: the maximum population to be created (default 400)
           seed [int]: a random seed, if you want repeatable results
         """
         random.seed(seed)
